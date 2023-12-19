@@ -72,6 +72,7 @@ RUN set -eux; \
 		--enable-loadable-sqlite-extensions \
 		--enable-optimizations \
 		--enable-option-checking=fatal \
+		--with-ssl-default-suites=openssl \
 		--enable-shared \
 		--with-lto \
 		--with-system-expat \
